@@ -1,0 +1,43 @@
+.scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-container {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .result-container {
+    margin: 20px;
+  }
+  
+  .result-text {
+    font-size: 24px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
